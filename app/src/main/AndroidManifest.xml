@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".ScollerActivity"></activity>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 35bede6eedd6e24e3a59bc5f4688bffe0bdd6123
     </application>
 
 </manifest>
