@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.limushan.databinding.DataBindingTestActivity;
 import com.limushan.scroll.LocationActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +22,10 @@ public class MainActivity extends AppCompatActivity {
      */
     public void scroll(View view) {
         LocationActivity.start(this);
+    }
+
+    public void dataBind(View view){
+        DataBindingTestActivity.start(this);
     }
 
 

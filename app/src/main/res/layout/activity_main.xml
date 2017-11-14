@@ -11,6 +11,13 @@
         android:onClick="scroll"
         android:text="滑动分析" />
 
+    <Button
+        android:id="@+id/dataBind"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:onClick="dataBind"
+        android:text="dataBind" />
+
     <com.limushan.mushanproject.Timer
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data >
+
+        <import type="com.limushan.databinding.UserBean" />
+
+        <import
+            alias="v"
+            type="android.view.View" />
+
+        <variable
+            name="user"
+            type="com.limushan.databinding.UserBean" />
+
+        <variable
+            name="holder"
+            type="com.limushan.databinding.UserBean"/>
+    </data>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="@{(view)->user.onClick(view)}"
+            android:text="@{user.name}" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{holder.id}" />
+
+    </LinearLayout>
+</layout>

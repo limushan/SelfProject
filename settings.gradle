@@ -1,1 +1,1 @@
-include ':app', ':scroll', ':base', ':bill'
+include ':app', ':scroll', ':base', ':bill', ':databinding'
