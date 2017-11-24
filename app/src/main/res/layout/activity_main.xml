@@ -18,6 +18,10 @@
         android:onClick="dataBind"
         android:text="dataBind" />
 
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp" />
+
     <com.limushan.mushanproject.Timer
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

@@ -5,7 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.limushan.databinding.DataBindingTestActivity;
-import com.limushan.scroll.LocationActivity;
+import com.limushan.scroll.activity.ScrollActivity;
+import com.limushan.scroll.activity.WebViewActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -21,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
      * @param view
      */
     public void scroll(View view) {
-        LocationActivity.start(this);
+        WebViewActivity.start(this);
     }
 
     public void dataBind(View view){

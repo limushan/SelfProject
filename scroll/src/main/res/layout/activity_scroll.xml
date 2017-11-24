@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.limushan.scroll.ScrollLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/buttonTo"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/red"
+        android:onClick="scrollTo"
+        android:text="scroll to" />
+
+    <Button
+        android:id="@+id/buttonBy"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/black"
+        android:onClick="scrollBy"
+        android:text="scroll by" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/blue"
+        android:onClick="scrollBy"
+        android:text="scroll" />
+
+
+</com.limushan.scroll.ScrollLayout>
