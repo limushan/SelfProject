@@ -33,4 +33,9 @@ public class ScrollActivity extends AppCompatActivity {
     public void scrollBy(View view) {
         mLayout.scrollBy(-100, -200);
     }
+
+    @Override
+    public void onTrimMemory(int level) {
+        super.onTrimMemory(level);
+    }
 }
